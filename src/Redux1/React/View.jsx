@@ -19,12 +19,16 @@ let View = () => {
     return (
         <>
             <pre> React View, triggers an action.., </pre>
-            <i className='fa fa-minus circle' onClick={decrHandler}> </i>
-            <i className='fa fa-minus circle' onClick={incrHandler}> </i>
-            <button className='btn btn-success mr-5' onClick={incrHandler}> + </button>
+            <i className='fa fa-minus-circle' onClick={decrHandler}> </i>
+            <p>{count.ctr}</p>
+            <i className='fa fa-plus-circle' onClick={incrHandler}> </i>
+            <hr />
+            <button className='btn btn-success ' onClick={incrHandler}> + </button>
             {/* <pre> {JSON.stringify(count)} </pre> */}
             <pre> {JSON.stringify(count.ctr)} </pre>
-            <button className='btn btn-danger mr-5' onClick={decrHandler}> - </button>
+            <button className='btn btn-danger ' onClick={decrHandler}> - </button>
+            <hr />
+            <td><i className='fa fa-minus-circle' onClick={decrHandler}></i>{count.ctr}<i className='fa fa-plus-circle' onClick={incrHandler}></i></td>
         </>
     );
 }
