@@ -19,6 +19,7 @@ let View = () => {
         }
     return(
         <center>
+            <h2> Counter using Redux..,,</h2>
            <button className='btn btn-warning mr-4'> <i className='fa fa-minus-circle' onClick={decrHandler}> </i></button>
             {/* <h1> {counter.ctr} </h1> */}
             <input style={{textAlign:"center",borderBlockColor:"HighlightText"}} type="number" value={counter.ctr} />

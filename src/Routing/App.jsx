@@ -1,0 +1,27 @@
+import React from 'react';
+
+class App extends React.Component
+{
+
+    render()
+    {
+
+        return(
+            <>
+                <nav className='navbar navbar-dark bg-success navbar-expand-lg'>
+                    <a href="/home" className='navbar-brand'> WaterMelon </a>
+                        <div className='ml-auto'>
+                            <ul className='navbar-nav'>
+                                <li className='nav-list'> <a href="" className='nav-link'> Home </a></li>
+                                <li className='nav-list'> <a href="" className='nav-link'> About </a></li>
+                                <li className='nav-list'> <a href="" className='nav-link'> Contact </a></li>
+                                <li className='nav-list'> <a href="" className='nav-link'> Services </a></li>
+                            </ul>
+                        </div>
+                </nav>
+            </>
+        );
+    }
+}
+
+export default App;
