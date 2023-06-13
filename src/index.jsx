@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import App from './Redux1/React/App';
+import App from './Redux2/React/App';
 
 let container = document.getElementById('root');
 let root = ReactDOM.createRoot(container);
@@ -12,7 +12,7 @@ root.render(<App/>);
 // 
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
-
+ 
 // function Hello(props) {
 //   return <h1>Hello World!</h1>;
 // }
