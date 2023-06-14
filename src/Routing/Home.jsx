@@ -4,7 +4,7 @@ let Home = () => {
 
     return(
         <>
-            <h1> Welcome to photography World,,.</h1>
+            <h1> Welcome to photography World, u are at the right place.</h1>
         </>
     );
 }

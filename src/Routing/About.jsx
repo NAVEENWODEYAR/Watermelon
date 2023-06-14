@@ -5,7 +5,7 @@ let About = () => {
     return (
         <>
             <center>
-                <h2> About Us,...,,,</h2>
+                <h2> About Us,.,</h2>
             </center>
         </>
     );

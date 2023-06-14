@@ -4,7 +4,7 @@ let Contact = () => {
 
     return(
         <>
-            <h1> Available always..,,</h1>
+            <h1> Available always to our patrons..,,</h1>
         </>
     );
 }
