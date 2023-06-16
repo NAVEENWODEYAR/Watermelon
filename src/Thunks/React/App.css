@@ -3,5 +3,7 @@
 {
     background-image: url(./Imgs/t4.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
+    max-width: 100%;
+    height: auto;
 }
