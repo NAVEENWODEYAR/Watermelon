@@ -5,7 +5,7 @@ let App = () => {
 
     return (
         <>
-            <center> <h2> React, Redux.., </h2></center>
+            <center> <h2> React, Redux..,Thunk.., </h2></center>
         </>
     );
 }
