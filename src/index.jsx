@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import App from  './Thunks/React/App';
+import App from  './Thunks 1/React/App';
 
 let container = document.getElementById('root');
 let root = ReactDOM.createRoot(container);
