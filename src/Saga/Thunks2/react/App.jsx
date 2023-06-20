@@ -7,7 +7,7 @@ class App extends React.Component
 
         return(
             <>
-                <h2 style={{color:"blueviolet",fontSize:"10rem",backgroundColor:"whitesmoke"}}> Thunks middleware..,</h2>
+                <h2 style={{color:"blueviolet",fontSize:"50rem",backgroundColor:"whitesmoke"}}> Thunks middleware..,</h2>
             </>
         );
     }
