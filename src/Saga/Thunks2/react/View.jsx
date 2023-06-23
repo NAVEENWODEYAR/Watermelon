@@ -11,6 +11,8 @@ class View extends Component
                 <img style={{width:"1200px"}} src={'https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&w=800'} />
                 <hr />
                 <img src={this.imgs} style={{height:"800px"}}/>
+                <hr />
+                <h3> View layer..,,,</h3>
             </div>
             </>
         );
