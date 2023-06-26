@@ -1,6 +1,6 @@
 import React from 'react';
 
-let Contact = () => {
+let Services = () => {
 
     return(
         <>
@@ -18,8 +18,8 @@ let Contact = () => {
                 </div>
             </nav>
             <hr />
-                <h1> Contact Page..,</h1>
+                <h1> Home Page..,</h1>
         </>
     );
 }
-export default Contact;
+export default Services;

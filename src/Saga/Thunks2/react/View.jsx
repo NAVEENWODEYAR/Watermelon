@@ -15,7 +15,7 @@ class View extends Component
                 <h3> View layer..,,,{this.props.t}</h3>
                 <hr />
 
-                // carousel
+                {/* // carousel */}
                 
             </div>
             </>
