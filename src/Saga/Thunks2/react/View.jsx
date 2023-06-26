@@ -12,7 +12,11 @@ class View extends Component
                 <hr />
                 <img src={this.imgs} style={{height:"800px"}}/>
                 <hr />
-                <h3> View layer..,,,</h3>
+                <h3> View layer..,,,{this.props.t}</h3>
+                <hr />
+
+                // carousel
+                
             </div>
             </>
         );
